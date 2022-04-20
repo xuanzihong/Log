@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* Log_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Log_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B87891B94D412545050B0DA /* Log.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Log.podspec; path = ../Log.podspec; sourceTree = "<group>"; };
+		7B87891B94D412545050B0DA /* Log.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Log.podspec; path = ../Log.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8ABA114D24BE375008210F8 /* Pods-Log_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log_Tests.release.xcconfig"; path = "Target Support Files/Pods-Log_Tests/Pods-Log_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CDF64FDE5055F7290BE11D82 /* Pods-Log_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Log_Tests/Pods-Log_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA8A8B88E7666405792481B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EBA1468FE5DFE3B0FACF505E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA8A8B88E7666405792481B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EBA1468FE5DFE3B0FACF505E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				CDF64FDE5055F7290BE11D82 /* Pods-Log_Tests.debug.xcconfig */,
 				A8ABA114D24BE375008210F8 /* Pods-Log_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

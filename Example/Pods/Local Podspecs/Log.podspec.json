@@ -1,0 +1,22 @@
+{
+  "name": "Log",
+  "version": "0.1.0",
+  "summary": "打印日志Log.",
+  "description": "'Swift 打印日志Log'",
+  "homepage": "https://github.com/xuanzihong/Log",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuanzihong": "xuanzihong@126.com"
+  },
+  "source": {
+    "git": "git@github.com:xuanzihong/Log.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Log/Classes/**/*"
+}
